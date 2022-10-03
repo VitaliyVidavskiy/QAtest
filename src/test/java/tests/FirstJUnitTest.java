@@ -1,6 +1,5 @@
-package junit;
+package tests;
 
-import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.*;
 
 public class FirstJUnitTest {
