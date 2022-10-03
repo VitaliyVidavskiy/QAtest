@@ -1,11 +1,19 @@
 plugins {
-    id 'java-libary'
+    id 'java-library'
 }
 
 repositories {
     mavenCentral()
 }
 
-dependesies {
+dependencies {
+    testImplementation(
+            'com.codeborne:selenide:6.8.1',
+            'org.junit.jupiter:junit-jupiter:5.9.1'
+    )
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.9.1')
+}
 
+test {
+    useJUnitPlatform()
 }
