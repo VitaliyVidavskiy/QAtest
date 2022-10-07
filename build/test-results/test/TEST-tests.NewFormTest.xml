@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.NewFormTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-04T22:14:55" hostname="VITALIY" time="7.608">
+<testsuite name="tests.NewFormTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-07T07:53:03" hostname="VITALIY" time="9.254">
   <properties/>
-  <testcase name="successFillTest()" classname="tests.NewFormTest" time="7.608">
-    <failure message="Element should be selected {#gender-radio-1}&#13;&#10;Element: '&lt;input class=&quot;custom-control-input&quot; id=&quot;gender-radio-1&quot; name=&quot;gender&quot; required type=&quot;radio&quot; value=&quot;Male&quot; displayed:false&gt;&lt;/input&gt;'&#13;&#10;Actual value: not selected&#13;&#10;Screenshot: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1664921703437.0.png&#13;&#10;Page source: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1664921703437.0.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should be selected {#gender-radio-1}
-Element: '&lt;input class=&quot;custom-control-input&quot; id=&quot;gender-radio-1&quot; name=&quot;gender&quot; required type=&quot;radio&quot; value=&quot;Male&quot; displayed:false&gt;&lt;/input&gt;'
-Actual value: not selected
-Screenshot: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1664921703437.0.png
-Page source: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1664921703437.0.html
+  <testcase name="successFillTest()" classname="tests.NewFormTest" time="9.254">
+    <failure message="Invalid element state [#submit]: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (395, 478). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; width=&quot;728&quot; height=&quot;90&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot; data-google-container-id=&quot;1&quot;&gt;&lt;/iframe&gt;&#13;&#10;Screenshot: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1665129192285.0.png&#13;&#10;Page source: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1665129192285.0.html&#13;&#10;Timeout: 4 s.&#13;&#10;Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (395, 478). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; width=&quot;728&quot; height=&quot;90&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot; data-google-container-id=&quot;1&quot;&gt;&lt;/iframe&gt;" type="com.codeborne.selenide.ex.InvalidStateException">Invalid element state [#submit]: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (395, 478). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; width=&quot;728&quot; height=&quot;90&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot; data-google-container-id=&quot;1&quot;&gt;&lt;/iframe&gt;
+Screenshot: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1665129192285.0.png
+Page source: file:/C:/Users/USer/IdeaProjects/QAtest/build/reports/tests/1665129192285.0.html
 Timeout: 4 s.
-	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
-	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
-	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
-	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
-	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:129)
+Caused by: ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (395, 478). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; width=&quot;728&quot; height=&quot;90&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot; data-google-container-id=&quot;1&quot;&gt;&lt;/iframe&gt;
+	at app//com.codeborne.selenide.impl.ExceptionWrapper.wrap(ExceptionWrapper.java:26)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:151)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:81)
-	at app//com.sun.proxy.$Proxy16.shouldBe(Unknown Source)
-	at app//tests.NewFormTest.successFillTest(NewFormTest.java:29)
+	at app//com.sun.proxy.$Proxy16.click(Unknown Source)
+	at app//tests.NewFormTest.successFillTest(NewFormTest.java:48)
 	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.16/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.16/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -100,21 +95,50 @@ Timeout: 4 s.
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (395, 478). Other element would receive the click: &lt;iframe id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; name=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; width=&quot;728&quot; height=&quot;90&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot; data-google-container-id=&quot;1&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=106.0.5249.91)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'VITALIY', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9c74ee6e1a20e67318cc2e4730ac087, clickElement {id=eb9531d9-4e93-492c-ace6-8766bdb51633}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\USer\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63928/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e9c74ee6e1a20e67318cc2e4730ac087)] -&gt; css selector: #submit]
+Session ID: e9c74ee6e1a20e67318cc2e4730ac087
+	at java.base@11.0.16/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@11.0.16/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base@11.0.16/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@11.0.16/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at app//com.codeborne.selenide.commands.Click.defaultClick(Click.java:97)
+	at app//com.codeborne.selenide.commands.Click.click(Click.java:54)
+	at app//com.codeborne.selenide.commands.Click.execute(Click.java:31)
+	at app//com.codeborne.selenide.commands.Click.execute(Click.java:21)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:157)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:129)
+	... 86 more
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 55414
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 58638
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-жовт. 05, 2022 1:14:57 ДП org.openqa.selenium.remote.ProtocolHandshake createSession
+жовт. 07, 2022 10:53:04 ДП org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-жовт. 05, 2022 1:14:57 ДП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+жовт. 07, 2022 10:53:04 ДП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: 104
-жовт. 05, 2022 1:14:57 ДП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+жовт. 07, 2022 10:53:04 ДП org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 106 of 104
 ]]></system-err>
 </testsuite>
