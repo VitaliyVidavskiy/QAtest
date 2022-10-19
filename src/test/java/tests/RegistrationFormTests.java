@@ -1,5 +1,6 @@
 package tests;
 
+
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -12,13 +13,13 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class NewFormTest {
+public class RegistrationFormTests {
 
-    @BeforeAll
-    static void beforeall() {
-        Configuration.baseUrl="https://demoqa.com";
-        Configuration.browserSize="1020x800";
-    }
+   @BeforeAll
+   static void beforeAll() {
+         Configuration.baseUrl = "https://demoqa.com";
+         Configuration.browserSize = "800x600";
+        }
 
     @Test
     void successFillTest() {
@@ -48,5 +49,6 @@ public class NewFormTest {
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
         $(".table-responsive").$(byText("Student Name"))
                 .parent().shouldHave(text("viktor jonson"));
-       }
+    }
+
 }

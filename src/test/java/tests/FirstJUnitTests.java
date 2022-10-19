@@ -2,7 +2,7 @@ package tests;
 
 import org.junit.jupiter.api.*;
 
-public class FirstJUnitTest {
+public class FirstJUnitTests {
     @BeforeAll
     static void beforeall() {
         System.out.println("This test will do before all test");
