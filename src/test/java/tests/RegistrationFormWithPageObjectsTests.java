@@ -34,10 +34,7 @@ public class RegistrationFormWithPageObjectsTests {
         $("#userEmail").setValue("VJ@gmail.com");
         $(by("for","gender-radio-3")).click();
         $("#userNumber").setValue("+390934045812");
-        $("#dateOfBirthInput").click();
-        $(".react-datepicker__month-select").selectOption(3);
-        $(".react-datepicker__year-select").selectOption("1993");
-        $(by("aria-label", "Choose Saturday, April 24th, 1993")).click();
+        registrationPage.setBirthDate( "24", "April", "1993");
         $(".subjects-auto-complete__input").click();
         $("#subjectsInput").setValue("Math").pressEnter();
         $(by("for","hobbies-checkbox-2")).click();
